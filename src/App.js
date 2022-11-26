@@ -60,6 +60,7 @@ function App() {
 
   return (
     <div>
+      <h1 className='page-tit'>버튼을 클릭해 가위바위보를 시작해주세요!</h1>
       <div className='main'>
         <Box title="you" item={userSelect} result={result} />
         <Box title="computer" item={pcSelect} result={result} />
